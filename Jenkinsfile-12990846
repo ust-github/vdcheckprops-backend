@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Example') {
             steps {
-			  	sleep time: 1000, unit: 'MILLISECONDS'
+			  	sleep time: 5000, unit: 'MILLISECONDS'
                 echo 'VARIABLES BEGIN'
 			  	echo 'a: q'
 			  	echo 'b: w'
