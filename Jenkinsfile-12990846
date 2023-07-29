@@ -5,8 +5,8 @@ pipeline {
             steps {
 			  	sleep time: 5000, unit: 'MILLISECONDS'
                 echo 'VARIABLES BEGIN'
-			  	echo 'a: q'
-			  	echo 'b: w'
+			  	echo 'a: ${a}'
+			  	echo 'b: ${b}'
 			  	echo 'VARIABLES END'
             }
         }
